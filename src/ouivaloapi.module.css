@@ -1,0 +1,41 @@
+.row{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.inputGroup{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGroup label{
+    text-align: left;
+    margin: 0.5em 0;
+}
+
+.form{
+    border-radius: 1em;
+    box-shadow: 1px 1px 30px #aaa;
+    margin: 3em auto;
+    padding: 1em;
+    width: 60%;
+}
+
+textarea{
+    resize: none;
+}
+
+.buttonSubmit{
+    background-color: #2EB987;
+    border: 0px;
+    border-radius: 0.5em;
+    cursor: pointer;
+    margin: 2em;
+    padding: 1em;
+}
+
+.buttonSubmit:hover{
+    background-color: #A1DDC3;
+    transition: ease-in 0.3s;
+}
