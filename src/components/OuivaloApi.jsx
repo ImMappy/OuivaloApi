@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './ouivaloapi.module.css'
+import styles from '../style/ouivaloapi.module.css'
 import { useState } from 'react'
 
 
@@ -76,7 +76,7 @@ export const OuivaloApi = () => {
             <div className={styles.row}>
                 <div className={styles.inputGroup}>
                     <label htmlFor="message">Message</label>
-                    <textarea type="text" value={message} name="message"  onChange={(e) => setMessage(e.target.value)} />
+                    <textarea  rows="10" cols="15" value={message} name="message" onChange={(e) => setMessage(e.target.value)} />
                 </div>
             </div>
         <button className={styles.buttonSubmit} type="submit">Envoyer</button>

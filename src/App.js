@@ -1,5 +1,5 @@
 import './App.css';
-import { OuivaloApi } from './OuivaloApi';
+import { OuivaloApi } from './components/OuivaloApi';
 
 function App() {
   return (

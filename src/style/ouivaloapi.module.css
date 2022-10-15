@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 .row{
     display: flex;
     flex-direction: column;
 }
 
-
+input{
+    padding: 0.3em;
+}
 .inputGroup{
     display: flex;
     flex-direction: column;
@@ -24,6 +27,7 @@
 
 textarea{
     resize: none;
+    font-family: 'Lato',sans-serif;
 }
 
 .buttonSubmit{
